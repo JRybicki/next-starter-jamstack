@@ -7,9 +7,12 @@ const Home = () => (
 
     <h3>This is the beginning of something great!!!</h3>
 	
-	export default () => 
 	<div>
-	  <img src={require('./2ms3cq.jpg')} />
+	  <img 
+	  src={ require('./2ms3cq.jpg') } 
+	  width={250}
+	  height={250}
+	  />
 	</div>
 
     <style jsx>{`
