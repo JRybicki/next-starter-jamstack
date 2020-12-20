@@ -3,7 +3,7 @@ import Head from 'next/head'
 
 const Home = () => (
   <div>
-    <h1>Next.js on the [JAMstack](https://jamstack.org)</h1>
+    <h1>Learning Next.js using Jamstack</h1>
 
     <h3>This is the beginning of something great!!!</h3>
 
