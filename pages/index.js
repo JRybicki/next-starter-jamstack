@@ -1,11 +1,23 @@
 import React from 'react'
 import Head from 'next/head'
 
+// next.config.js
+const withImages = require('next-images')
+module.exports = withImages({
+  webpack(config, options) {
+    return config
+  }
+})
+
 const Home = () => (
   <div>
     <h1>Learning Next.js using Jamstack</h1>
 
-    <h3>This is the beginning of something great!!!</h3>
+    <h3>This probably won't build...</h3>
+
+	export default () => <div>
+	  <img src={require('./test_img.jpg')} />
+	</div>
 
     <style jsx>{`
       :global(html,body) {
