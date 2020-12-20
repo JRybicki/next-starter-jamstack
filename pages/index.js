@@ -3,15 +3,11 @@ import Head from 'next/head'
 
 const Home = () => (
   <div>
-    <h1>Learning Next.js using Jamstack</h1>
-
-    <h3>This is the beginning of something great!!!</h3>
+    <h1>Hello and Welcome to my website</h1>
 	
 	<div>
 	  <img 
 	  src={ require('./2ms3cq.jpg') } 
-	  width={250}
-	  height={250}
 	  />
 	</div>
 
