@@ -6,6 +6,11 @@ const Home = () => (
     <h1>Learning Next.js using Jamstack</h1>
 
     <h3>This is the beginning of something great!!!</h3>
+	
+	export default () => 
+	<div>
+	  <img src={require('./2ms3cq.jpg')} />
+	</div>
 
     <style jsx>{`
       :global(html,body) {
